@@ -14,6 +14,9 @@ type InvoiceDocumentSelf struct {
 	City         string
 	PostalCode   string
 	VatNumber    string
+	ContactEmail string
+	ContactName  string
+	ContactPhone string
 	BankAccounts []string
 }
 
